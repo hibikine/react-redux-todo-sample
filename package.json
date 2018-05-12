@@ -1,0 +1,42 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.1.0",
+  "description": "Hibikine Kage's React Boilerplate",
+  "main": "src/index.js",
+  "repository": "https://github.com/HibikineKage/react-boilerplate",
+  "author": "Hibikine Kage <goodsmile314159@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-test-renderer": "^16.0.1",
+    "@types/recompose": "^0.26.1",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^8.0.0-beta.2",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^22.4.3",
+    "node-sass": "^4.9.0",
+    "prettier": "^1.12.1",
+    "react-test-renderer": "^16.3.2",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "typescript-eslint-parser": "^15.0.0",
+    "webpack": "^4.8.2",
+    "webpack-serve": "^0.3.2"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "recompose": "^0.27.0"
+  },
+  "scripts": {
+    "start": "webpack-serve --content ./public"
+  }
+}
