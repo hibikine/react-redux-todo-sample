@@ -1,6 +1,6 @@
-# React Boilerplate
+# React Redux Counter Sample
 
-Hibikine Kage's React Boilderplate
+React Redux Counter Sample
 
 ## Requirements
 
@@ -15,9 +15,11 @@ yarn start
 ## Stack
 
 * React
+* Redux
 * Babel
 * Sass
 * Webpack V4
 * TypeScript
 * ESLint
 * Prettier
+* gh-pages

@@ -20,6 +20,7 @@
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "gh-pages": "^1.1.0",
     "jest": "^22.4.3",
     "node-sass": "^4.9.0",
     "prettier": "^1.12.1",
@@ -30,6 +31,7 @@
     "typescript": "^2.8.3",
     "typescript-eslint-parser": "^15.0.0",
     "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
     "webpack-serve": "^0.3.2"
   },
   "dependencies": {
@@ -40,6 +42,8 @@
     "redux": "^4.0.0"
   },
   "scripts": {
-    "start": "webpack-serve --content ./public"
+    "start": "webpack-serve --content ./public",
+    "build": "webpack",
+    "deploy": "yarn build && gh-pages -d public"
   }
 }
