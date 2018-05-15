@@ -1,5 +1,7 @@
 # React Redux Counter Sample
 
+[![Build Status](https://travis-ci.org/HibikineKage/react-redux-todo-sample.svg?branch=master)](https://travis-ci.org/HibikineKage/react-redux-todo-sample)
+
 React Redux Counter Sample
 
 ## Requirements
